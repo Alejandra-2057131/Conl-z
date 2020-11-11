@@ -1,0 +1,164 @@
+*{
+    list-style: none;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{ 
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.btn{
+    font-size: 25px;
+    padding: 1px 5px;
+    min-width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.btn-light{
+    background-color: #E84E1F;
+    color: black;
+    border: 5px solid #E84E1F;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+.nav-link{color: black;}
+.nav-link:hover{color: #E84E1F}
+.logo-brand{
+    min-width: 30px;
+    max-width: 40px;
+}
+.navbar-toggler{
+    color: black;
+    font-size: 40px;
+}
+.navbar-toggler:focus{outline: none;}
+#principal{
+    background-image: url("img/Banner1.png");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: black;
+}
+#mision{
+    background-image: url("img/Banner2.png");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: black;
+}
+#quienes{
+    min-height: 700px;
+    color: black;
+}
+.content-izquierda{
+    margin: 0 auto 60px auto;
+    text-align: start;
+}
+.sus{
+    background-color: #E84E1F;
+    max-width: 145px;
+    border-radius: 5px;
+}
+.mujer{
+    max-width: 250px;
+}
+.quien{
+    display: flex;
+    align-items: center;
+    margin: 120px 0 0 0;
+}
+.quienees{
+    text-align: center;
+}
+.mujer{
+    margin: 0 20px 0 50px;
+}
+.vis{
+    text-align: end;
+}
+#equipo{
+    min-height: 700px;
+    color: black;
+}
+.cur{
+    text-align: end;
+}
+.comun{
+    display: flex;
+    justify-content: space-between
+}
+.com{
+    margin: 10px 0 0 0;
+}
+.lac, .laco, .hom, .homo{
+    width: 48%;
+}
+.primer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.segun{
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+.cor{
+    font-size: 50px;
+}
+#tips{
+    min-height: 700px;
+    color: black;
+}
+.tip{
+    font-size: 40px;
+}
+.port{
+    text-align: end;
+}
+.por{
+    text-align: center;
+}
+.portol{
+    display: flex;
+    justify-content: space-between;
+}
+.foto{
+    width: 24%;
+}
+#porfolio{
+    min-height: 700px;
+    color: black;
+}
+#footer{
+    background-color: #80f6fc;
+}
+.log{
+    width: 90px;
+}
+.container-dd{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+}
+.red{
+    font-size: 50px;
+    color: black;
+}
+.social li{
+    display: inline-block;
+}
+
+@media (max-width: 575.98px) { 
+    h1 {font-size: 40px; line-height: normal;}
+}
